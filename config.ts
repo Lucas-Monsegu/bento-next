@@ -11,8 +11,8 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
-  openInNewTab: true,
+  name: 'Lucas',
+  openInNewTab: false,
   title: 'Bento',
 
   // Clock
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-macchiato',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -102,41 +102,41 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'Gitlab', // set the name of the card
+        icon: 'fab-gitlab', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://gitlab.beamformusic.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
+        name: 'Windmill',
+        icon: 'wind',
         url: 'https://mail.protonmail.com/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Forest',
+        icon: 'tree',
+        url: 'https://app.forestadmin.com/authentication/login',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Dev',
+        icon: 'fab-dev',
+        url: 'https://v2.app.dev.beamformusic.com/',
       },
       {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
+        name: 'Prod',
+        icon: 'fab-product-hunt',
+        url: 'https://app.beamformusic.com',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'ChatGPT',
+        icon: 'comment',
+        url:'https://chatgpt.com/'
       },
     ],
     // Second buttons group
     // You muse use the 'buttons' layout to use this group.
     [
       {
-        name: 'Music',
+        name: 'Google',
         icon: 'fab-spotify',
         url: 'https://open.spotify.com',
       },
@@ -174,23 +174,24 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'Servers', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'Storage', // Display text for the link
+            url: 'https://console.cloud.google.com/storage/browser', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Run',
+            url: 'https://console.cloud.google.com/run',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Instances',
+            url: 'https://console.cloud.google.com/compute/instances',
+            
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'OVH',
+            url: 'https://www.ovh.com/manager/#/hub',
           },
         ],
       },
@@ -198,21 +199,22 @@ export const config: Config = {
         icon: 'coffee',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Mail',
+            url: 'https://mail.google.com/mail/u/0/',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Calendar',
+            url: 'https://calendar.google.com/calendar/r',
+          },
+          {
+            name: 'Drive',
+            url: 'https://drive.google.com/drive/u/0/shared-drives',
           },
           {
             name: 'Trello',
             url: 'https://www.trello.com',
           },
-          {
-            name: 'Slack',
-            url: 'https://www.slack.com',
-          },
+          
         ],
       },
     ],
