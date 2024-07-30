@@ -174,7 +174,7 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'Servers', // Icon for the list to use. The same as the buttons.
+        icon: 'server', // Icon for the list to use. The same as the buttons.
         links: [
           {
             name: 'Storage', // Display text for the link
